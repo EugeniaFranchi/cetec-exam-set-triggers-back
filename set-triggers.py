@@ -28,5 +28,6 @@ def main():
     })
     
     response = requests.request("POST", url, headers=headers, data=data)
+    print(response.text)
     
 main()
